@@ -14,14 +14,17 @@ public class RemoveDuplicates {
             
 
         }
-        return uniquePointer=1;
+        return uniquePointer+1;
         }
         public static void main(String[] args) {
-            RemoveDuplicates solution=new RemoveDuplicates();
-            int [] nums={1, 1, 2, 2, 3, 4, 4, 5};
-            int newLength=solution.removeDuplicates(nums);
+            RemoveDuplicates solution = new RemoveDuplicates();
+            int[] nums = {1, 1, 2, 2, 3, 4, 4, 5};
+            int newLength = solution.removeDuplicates(nums);
             System.out.println("New length of the array after removing duplicates: " + newLength);
             System.out.print("Array after removing duplicates: ");
-
+            for (int i = 0; i < newLength; i++) {
+                System.out.print(nums[i] + " ");
+            }
+            System.out.println();
         }
     }
