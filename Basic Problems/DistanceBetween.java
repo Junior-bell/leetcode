@@ -7,6 +7,6 @@ public class DistanceBetween
       }
       public static void main(String[] args) {
         
-       System.out.println(distance(3,4,4,3));
+       System.out.println(Math.round(distance(3,4,4,3)));
       }
 }
