@@ -9,8 +9,7 @@ public class FactorialOfN {
        }
        return res;
     }
-    public static void main(S
-    tring[] args) {
+    public static void main(String[] args) {
         int res=6;
         System.out.println("factorial of the given number is = "+factorial(res));
     }
