@@ -15,5 +15,6 @@ public class PairOfCubeCount {
     public static void main(String[] args) {
         int n=9;
         System.out.println("The count of pairs of cube is "+countCube(n));
+      
     }
 }
