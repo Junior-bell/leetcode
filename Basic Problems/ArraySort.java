@@ -20,5 +20,6 @@ public static void main(String[] args) {
     System.out.println(Arrays.toString(arr));
     System.out.println("The Largest element in the array is "+max);
     System.out.println("The smallest number in the array is "+min);
+    
 }
 }
