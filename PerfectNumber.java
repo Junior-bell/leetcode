@@ -12,16 +12,16 @@ public class PerfectNumber {
              sum+=i;
             }
          }
-        System.err.println();
+        System.out.println();
     return sum==a;     //is sum and the given numbers are the same? yes or no?
     }
     
     public static void main(String[] args) {
         int a=28;
         if(perfect(a))
-        System.out.println("The given number is a perfect number ");
+        System.out.println("The given number " +a+" is a perfect number ");
         else
-        System.out.println("The given number is not a perfect Number ");
+        System.out.println("The given number " +a+" is not a perfect Number ");
     }
     
 }
